@@ -82,7 +82,15 @@ utils.extend(Chunk.prototype, {
 
     var $ = this
     function testHandler (event) {
-      var status = $.status(true)
+      var status = null
+      var testChunksFn = $.uploader.opts.testChunksFn
+
+      if (utils.isFunction(testChunksFn)) {
+        status = testChunksFn($.xhr)
+      } else {
+        status = $.status(true)
+      }
+
       if (status === STATUS.ERROR) {
         $._event(status, $.message())
         $.uploader.uploadNextChunk()

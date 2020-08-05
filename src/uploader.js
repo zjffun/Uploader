@@ -89,6 +89,7 @@ Uploader.defaults = {
   allowDuplicateUploads: false,
   target: '/',
   testChunks: true,
+  testChunksFn: null,
   generateUniqueIdentifier: null,
   maxChunkRetries: 0,
   chunkRetryInterval: null,

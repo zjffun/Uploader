@@ -142,6 +142,7 @@ function, it will be passed a Uploader.File, a Uploader.Chunk and isTest boolean
 * `allowDuplicateUploads ` Once a file is uploaded, allow reupload of the same file. By default, if a file is already uploaded, it will be skipped unless the file is removed from the existing Uploader object. (Default: `false`)
 * `prioritizeFirstAndLastChunk` Prioritize first and last chunks of all files. This can be handy if you can determine if a file is valid for your service from only the first or last chunk. For example, photo or video meta data is usually located in the first part of a file, making it easy to test support from only the first chunk. (Default: `false`)
 * `testChunks` Make a GET request to the server for each chunks to see if it already exists. If implemented on the server-side, this will allow for upload resumes even after a browser crash or even a computer restart. (Default: `true`)
+* `testChunksFn` TODO
 * `preprocess` Optional function to process each chunk before testing & sending. To the function it will be passed the chunk as parameter, and should call the `preprocessFinished` method on the chunk when finished. (Default: `null`)
 * `initFileFn` Optional function to initialize the fileObject. To the function it will be passed a Uploader.File arguments.
 * `readFileFn` Optional function wrapping reading operation from the original file. To the function it will be passed the Uploader.File, the startByte and endByte, the fileType and the Uploader.Chunk. And should call the `readFinished` method with bytes arguments on the chunk when finished.

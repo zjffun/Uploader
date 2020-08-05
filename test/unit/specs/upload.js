@@ -639,4 +639,6 @@ describe('upload file', function () {
     expect(uploader.files[0].paused).toBe(false)
     expect(uploader.files[1].paused).toBe(true)
   })
+
+  // TODO: testChunksFn
 })
