@@ -1,9 +1,10 @@
 {
   "name": "@zjffun/simple-uploader.js",
   "version": "0.5.5",
-  "author": "dolymood <dolymood@gmail.com>",
+  "private": false,
+  "author": "JuFeng Zhang",
   "license": "MIT",
-  "description": "Uploader library implements html5 file upload and provides multiple simultaneous, stable, fault tolerant and resumable uploads",
+  "description": "[Own version] Uploader library implements html5 file upload and provides multiple simultaneous, stable, fault tolerant and resumable uploads",
   "keywords": [
     "simple-uploader",
     "simple-uploader.js",
@@ -21,10 +22,10 @@
   "main": "src/uploader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simple-uploader/Uploader.git"
+    "url": "https://github.com/zjffun/Uploader/tree/npm/add-testchunksfn"
   },
-  "bugs": "https://github.com/simple-uploader/Uploader/issues",
-  "homepage": "https://github.com/simple-uploader/Uploader",
+  "bugs": "https://github.com/zjffun/Uploader/issues",
+  "homepage": "https://github.com/zjffun/Uploader/tree/npm/add-testchunksfn",
   "scripts": {
     "dev": "gulp watch",
     "build": "gulp build",

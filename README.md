@@ -1,3 +1,9 @@
+# [Own version]
+
+Fork from [simple-uploader/Uploader@b1d9c33](https://github.com/simple-uploader/Uploader/commit/b1d9c3392ff28a045addd23b19a918ae1ec03224), and
+
+- add a `testChunksFn` option
+
 # simple-uploader.js [![Build Status](https://travis-ci.org/simple-uploader/Uploader.svg?branch=master)](https://travis-ci.org/simple-uploader/Uploader?branch=master) [![codecov.io](http://codecov.io/github/simple-uploader/Uploader/coverage.svg?branch=master)](http://codecov.io/github/simple-uploader/Uploader?branch=master) [![Build Status](https://saucelabs.com/buildstatus/uploader)](https://saucelabs.com/u/uploader)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/uploader.svg)](https://saucelabs.com/u/uploader)
